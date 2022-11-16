@@ -28,7 +28,6 @@ function addList() {
         li.classList.toggle("delete");
     }
 
-    // li.addEventListener("mouseover", onMouseover);
     li.addEventListener("click", onLiClick);
     delBtn.addEventListener("click", onDeleteClick);
 }
